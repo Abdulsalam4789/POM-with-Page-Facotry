@@ -1,0 +1,40 @@
+09:58:27,556 DEBUG devpinoyLogger:71 - Config file loaded !!!
+09:58:27,574 DEBUG devpinoyLogger:86 - OR file loaded !!!
+09:58:38,932 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+09:58:39,192 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+09:58:39,196 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:39389][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+09:58:39,425 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:39389][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+09:58:39,431 DEBUG MainClientExec:234 - Opening connection {}->http://localhost:39389
+09:58:39,434 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to localhost/127.0.0.1:39389
+09:58:39,450 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 127.0.0.1:53385<->127.0.0.1:39389
+09:58:39,451 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+09:58:39,451 DEBUG MainClientExec:255 - Executing request POST /session HTTP/1.1
+09:58:39,452 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+09:58:39,472 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+09:58:39,476 DEBUG headers:135 - http-outgoing-0 >> POST /session HTTP/1.1
+09:58:39,476 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+09:58:39,477 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 308
+09:58:39,479 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:39389
+09:58:39,480 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+09:58:39,480 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_231)
+09:58:39,481 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+09:58:39,482 DEBUG wire:72 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+09:58:39,482 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+09:58:39,482 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 308[\r][\n]"
+09:58:39,483 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:39389[\r][\n]"
+09:58:39,483 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+09:58:39,484 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_231)[\r][\n]"
+09:58:39,484 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+09:58:39,484 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+09:58:39,485 DEBUG wire:86 - http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":["--disable-extensions","--disable-infobars"],"extensions":[],"prefs":{"profile.default_content_setting_values.notifications":2,"credentials_enable_service":false,"profile.password_manager_enabled":false}},"version":"","platform":"ANY"}}"
+09:58:57,423 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+09:58:57,424 DEBUG wire:72 - http-outgoing-0 << "Content-Length:321[\r][\n]"
+09:58:57,424 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+09:58:57,425 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+09:58:57,426 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"ee9c9653164c1dcd6af3473e069e1e26","status":33,"value":{"message":"session not created: This version of ChromeDriver only supports Chrome version 83\n  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 6.1.7601 SP1 x86_64)"}}"
+09:58:57,435 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+09:58:57,436 DEBUG headers:127 - http-outgoing-0 << Content-Length:321
+09:58:57,436 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+09:58:57,472 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+09:58:57,513 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:39389] can be kept alive indefinitely
+09:58:57,515 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:39389][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
